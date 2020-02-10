@@ -1,0 +1,65 @@
+apiVersion: v1
+entries:
+  alpine:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2020-02-10T18:20:00.341081311Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: 21a4687acb5d3ebd68e3fc3177b41bf006442f18413ff222df674d0dd1e40c8b
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: alpine
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/paulczar/charts/releases/download/alpine-0.1.2/alpine-0.1.2.tgz
+    version: 0.1.2
+  dependencies:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-10T18:20:00.434696511Z"
+    description: Chart to test dependencies
+    digest: 83546c9c8ce55496a658b9cc22d9d6de42c6e2d688da1914f4b7fe93e198e7e0
+    home: https://github.com/helm/charts-repo-actions-demo
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: dependencies
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/paulczar/charts/releases/download/dependencies-0.1.0/dependencies-0.1.0.tgz
+    version: 0.1.0
+  example:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-10T18:20:00.555083883Z"
+    description: A Helm chart for Kubernetes
+    digest: 314d5562880409079262f3a5912bd59f326c82a60cb913e20d68358f0435ce82
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/paulczar/charts/releases/download/example-0.1.2/example-0.1.2.tgz
+    version: 0.1.2
+  mystique:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-10T18:20:00.637878095Z"
+    description: A helm chart for masquerading as misc helm resources.
+    digest: 25c372493160854ff4d8af3264324173e8ec706847966d4e2f95c11ea8a7bd57
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: mystique
+    urls:
+    - https://github.com/paulczar/charts/releases/download/mystique-0.1.0/mystique-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-02-10T18:20:00.234011425Z"
