@@ -62,4 +62,18 @@ entries:
     urls:
     - https://github.com/paulczar/charts/releases/download/mystique-0.1.0/mystique-0.1.0.tgz
     version: 0.1.0
+  raw:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-24T14:59:17.536009496Z"
+    description: A helm chart for deploying raw manifests
+    digest: 1547bc9c13353173246e01af3217812c8a08864465ffa17213dd4c230907564d
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: raw
+    urls:
+    - https://github.com/paulczar/charts/releases/download/raw-1.0.0/raw-1.0.0.tgz
+    version: 1.0.0
 generated: "2020-02-10T18:20:00.234011425Z"
