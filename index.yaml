@@ -65,6 +65,19 @@ entries:
   raw:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2020-04-16T17:43:43.704450662Z"
+    description: A helm chart for deploying raw manifests
+    digest: c285aa99ab285b6d7a101bd8a6b076bacc1a7fb6932f2eadb504c39aefe11df4
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: raw
+    urls:
+    - https://github.com/paulczar/charts/releases/download/raw-1.0.1/raw-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2020-03-24T14:59:17.536009496Z"
     description: A helm chart for deploying raw manifests
     digest: 1547bc9c13353173246e01af3217812c8a08864465ffa17213dd4c230907564d
