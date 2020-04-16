@@ -12,3 +12,14 @@ manifests:
     kind: ConfigMap
     data:
       this: is a key value pair
+  - metadata:
+      name: raw-configmap-2
+      annotations:
+        this-is-an-annotation: "true"
+      labels:
+        this-is-an-label: "true"
+    apiVersion: v1
+    kind: Secret
+    type: Opaque
+    stringData:
+      this: is secret
