@@ -5,6 +5,7 @@ name: helloworld
 version: 0.1.0
 keywords:
   - hello world
+home: https://charts.paulczar.github.io
 sources:
   - https://github.com/paulczar/charts
 maintainers:
