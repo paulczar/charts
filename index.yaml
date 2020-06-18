@@ -48,6 +48,24 @@ entries:
     urls:
     - https://github.com/paulczar/charts/releases/download/example-0.1.2/example-0.1.2.tgz
     version: 0.1.2
+  helloworld:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-06-18T17:46:45.756041315Z"
+    description: A Helm chart for Kubernetes
+    digest: e2cb362f483b66469c59f7200b9ef9aa0cff4a23f32532d20e5d447ec0ced57f
+    home: https://charts.paulczar.github.io
+    keywords:
+    - hello world
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: helloworld
+    sources:
+    - https://github.com/paulczar/charts
+    urls:
+    - https://github.com/paulczar/charts/releases/download/helloworld-0.1.0/helloworld-0.1.0.tgz
+    version: 0.1.0
   mystique:
   - apiVersion: v1
     appVersion: "1.0"
