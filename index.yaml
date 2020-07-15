@@ -92,6 +92,20 @@ entries:
     urls:
     - https://github.com/paulczar/charts/releases/download/helloworld-0.1.0/helloworld-0.1.0.tgz
     version: 0.1.0
+  kubecon:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-15T19:38:47.005871026Z"
+    description: A Helm chart for Kubernetes
+    digest: 8dd66875c7a22dbd5702ba811bb3db04a132a637bb7690a81b9b229fc931ed82
+    home: https://tech.paulcz.net/charts
+    maintainers:
+    - email: paul@paulcz.net
+      name: paulczar
+    name: kubecon
+    urls:
+    - https://github.com/paulczar/charts/releases/download/kubecon-0.1.0/kubecon-0.1.0.tgz
+    version: 0.1.0
   mystique:
   - apiVersion: v1
     appVersion: "1.0"
